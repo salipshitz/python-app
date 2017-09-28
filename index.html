@@ -1,0 +1,23 @@
+<html>
+	<body>
+		<h1>Login</h1>
+		<form method="POST" action="/login.php">
+			<input type="text" id="username" />
+			<input type="password" id="password" />
+			<input type="submit" value="Enter" />
+		</form>
+		
+		<script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+		<script>
+			var config = {
+    			apiKey: "AIzaSyAzkSUkp-Cw0ARUyn2tEeIMt4RCkK-JO-M",
+    			authDomain: "learnpython-php.firebaseapp.com",
+    			databaseURL: "https://learnpython-php.firebaseio.com",
+				projectId: "learnpython-php",
+				storageBucket: "",
+				messagingSenderId: "196209250930"
+			};
+			firebase.initializeApp(config);
+		</script>
+	</body>
+</html>
